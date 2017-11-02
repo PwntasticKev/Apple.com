@@ -12,6 +12,10 @@
 
 @media screen and (min-width: 740px) {
 
+.desktop-header {
+  display: none;
+}
+
   .mobile {
     display: none;
   }
@@ -51,54 +55,38 @@ grid-template-rows: auto;
   font-size: 1.25rem;
 }
 
-#pic1 {
-  background-image: url(./img/design_and_display_medium.jpg);
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#pic2 {
-  background-image: url(./img/face_id_medium.jpg);
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#pic3 {
-  background-image: url(./img/truedepth_camera_medium.jpg);
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#pic4 {
-  background-image: url(./img/dual_cameras_medium.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#pic5 {
-  background-image: url(./img/a11_bionic_medium.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#pic6 {
-  background-image: url(./img/wireless_charging_medium.jpg);
-  background-position: left;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.pics-single {
-  background-image: url(./img/wireless_charging_medium.jpg);
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 
 
 }
 
 @media screen and (min-width: 773px) {
+.mobile-header {
+  display: none;
+}
+
+.header-desktop {
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    background-color: #323232;
+    color: white;
+    padding: 0 1rem 0 1rem
+}
+
+.desktop-options {
+padding-top: .8rem;
+font-weight: 200;
+font-size: 14px;
+}
+
+.desktop-cart img {
+
+}
+
+
+
+
 
 
 
