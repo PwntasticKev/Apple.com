@@ -1,0 +1,105 @@
+@media screen and (max-width: 740px) {
+.desktop {
+  display: none;
+}
+/*
+@media screen and (min-width: 730px) {
+.mobile {
+  display: none;
+}*/
+
+}
+
+@media screen and (min-width: 740px) {
+
+  .mobile {
+    display: none;
+  }
+  .iphone-pic img {
+      padding-left: 0;
+      width: 100%;
+      height: 10.5rem;
+      margin-top: 3rem;
+      padding: .75rem;
+  }
+
+  .iphonex-title {
+    font-size: 44px;
+    padding-top: 113px;
+  }
+
+  .say-hello {
+    font-size: 1.25rem;
+  }
+
+  .pics-container {
+    display: grid;
+grid-template-columns: 1fr 1fr;
+grid-column-gap: .75rem;
+padding: 5.5rem .75rem .75rem .75rem;
+grid-template-rows: auto;
+
+  }
+
+  .learn-more-container {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+  }
+
+.available {
+  padding-top: 2.5rem;
+  font-size: 1.25rem;
+}
+
+#pic1 {
+  background-image: url(./img/design_and_display_medium.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#pic2 {
+  background-image: url(./img/face_id_medium.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#pic3 {
+  background-image: url(./img/truedepth_camera_medium.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#pic4 {
+  background-image: url(./img/dual_cameras_medium.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#pic5 {
+  background-image: url(./img/a11_bionic_medium.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#pic6 {
+  background-image: url(./img/wireless_charging_medium.jpg);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pics-single {
+  background-image: url(./img/wireless_charging_medium.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+}
+
+@media screen and (min-width: 773px) {
+
+
+
+}
